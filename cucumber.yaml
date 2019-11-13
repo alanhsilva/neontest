@@ -1,0 +1,16 @@
+default:  -p no-source -p color -p pretty -p chrome -p screen -p retry
+
+
+retry: --retry 2
+no-source: --no-source
+color: --color
+pretty: --format pretty
+dot: --format progress
+html: --format html --out=data/report_default/report.html
+json_parallel: --format json --out data/report_default/report<%= ENV['TEST_ENV_NUMBER'] %>.json
+chrome: BROWSER=chrome
+firefox: BROWSER=firefox
+chrome_headless: BROWSER=chrome_headless
+firefox_headless: -p dot BROWSER=firefox_headless
+hmg: HOMOLOG=true
+screen: screenshot=true

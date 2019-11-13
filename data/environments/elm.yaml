@@ -1,0 +1,12 @@
+#Aqui estarão todos os xpaths que forem mapeados
+
+###################HOME
+home_cadastro_button:                    "//*[@class='button button--small bg-amarelo']"
+home_perguntas_link:  	                 "//*[@href='/perguntas']"
+
+
+
+##################QUESTIONS
+questions_title:                          "//*[@class='questions__question-title']"
+questions_title_list:                     "//*[@class='questions__list-item-title'][contains(text(),'A Neon é só um cartão?')]"
+questions_title_content:                  "//*[@class='questions__list-item-title'][contains(text(),'A Neon é só um cartão?')]/../*[@class='questions__list-item-content']"
