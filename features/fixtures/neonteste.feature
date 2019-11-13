@@ -1,5 +1,6 @@
 #language:pt
 
+@web
 Funcionalidade:  Validações no website do banco Neon
                 Realizar alguns testes de navegação e login
 
