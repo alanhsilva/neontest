@@ -11,9 +11,9 @@ Então("devo validar o texto da pergunta") do
 end
 
 Quando("acesso a página de status") do
-  pending # Write code here that turns the phrase above into concrete actions
+  @home.visit_status
 end
 
 Então("devo validar se o serviço de status está funcionando") do
-  pending # Write code here that turns the phrase above into concrete actions
+  @status.validate_service_online
 end

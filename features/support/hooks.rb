@@ -6,6 +6,7 @@ Before do
   @home = Home.new
   @question = Questions.new
   @services = Services.new
+  @status = Status.new
 
   Capybara.current_session.driver.browser.manage.delete_all_cookies
   page.driver.browser.manage.window.resize_to(1600, 1600)

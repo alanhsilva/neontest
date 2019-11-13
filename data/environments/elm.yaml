@@ -3,10 +3,15 @@
 ###################HOME
 home_cadastro_button:                    "//*[@class='button button--small bg-amarelo']"
 home_perguntas_link:  	                 "//*[@href='/perguntas']"
-
+home_footer_statuslink:                  "//*[@class='footer__nav-link'][contains(text(),'status')]"
 
 
 ##################QUESTIONS
 questions_title:                          "//*[@class='questions__question-title']"
 questions_title_list:                     "//*[@class='questions__list-item-title'][contains(text(),'A Neon é só um cartão?')]"
 questions_title_content:                  "//*[@class='questions__list-item-title'][contains(text(),'A Neon é só um cartão?')]/../*[@class='questions__list-item-content']"
+
+
+##################Status
+status_title:                             "//*[@class='status-header__title']"
+status_credit_card:                       "//div[@data-tooltip-text='Funcionando normalmente']/p[@class='inline-card__text'][contains(text(),'Ativação de cartão')]"

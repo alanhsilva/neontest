@@ -9,6 +9,7 @@ Funcionalidade:  Validações no website do banco Neon
         Quando acesso a página de perguntas
         Então devo validar o texto da pergunta
 
+    @segundo
     Cenário: Validar se o serviço de ativação de cartão
         Dado que tenha acesso ao site "neon" 
         Quando acesso a página de status

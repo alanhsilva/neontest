@@ -18,4 +18,9 @@ class Home
     @core.click_element(home_perguntas_link)
     @logic.expect_elm(questions_title)
   end
+
+  def visit_status
+    @core.click_element(home_footer_statuslink)
+    @logic.expect_elm(status_title)
+  end
 end
